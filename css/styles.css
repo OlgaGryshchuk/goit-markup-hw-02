@@ -6,9 +6,11 @@
 	--primary-text-color-theme-light: #212121;
 	--secondary-text-color-theme-light: #757575;
 	--accent-color: #2196f3;
+	--logo-header-text-color: #000000;
 	--primary-background-color: #ffffff;
 	--secondary-background-color: #2f303a;
 	--editional-background-color: #f5f4fa;
+	--modal-btn-hover-color: #188ce8;
 }
 
 body {
@@ -53,7 +55,7 @@ body {
 /* HEADER */
 
 .logo-header {
-	color: #000000;
+	color: var(--logo-header-text-color);
 }
 
 .nav-list-link:hover,
@@ -118,7 +120,7 @@ body {
 
 .modal-btn:hover,
 .modal-btn:focus {
-	background-color: #188ce8;
+	background-color: var(--modal-btn-hover-color);
 }
 
 /* ADVANTAGES */
