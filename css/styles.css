@@ -182,6 +182,7 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--primary-text-color-theme-light);
 	background-color: var(--editional-background-color);
+	cursor: pointer;
 }
 
 .filter-button:hover,
